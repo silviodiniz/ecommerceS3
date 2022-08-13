@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Pies & Cia - Trabalhe Conosco</title>
+ <link rel="stylesheet" href="./css_ger/reset.css">
+ <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css_ger/quem_somos.css">
+  </head>
+<body class="sobre nos">
+  <header class="header-bg">
+    <div class="header container">
+      <a href="./index.html"><img src="./assets/meulogop.png" alt="Logo Pie & Cia"></a>
+    </div>
+    <a href='https://silviodiniz.github.io/ecommerce/' class="botao-secundario"><button>Home</button></a>
+  </header>
+</body>
+      <main>
+      
+      <section class="principal">
+
+        <h2 class="titulo-principal">Trabalhe conosco</h2>
+
+        <img class="embeleze" src="./assets/img1/img_trab_conosco.png" alt="A equerda:foto dispondo pão recém assado no carrinho-prateleiras, 
+        onde já existem vários outros pães assados. rapaz mostrando ambiente e utensílios do processo de produção das tortas. Mais à direita: 
+        desenho com sete confeiteiros trabalhando em equipe em uma cozinha profissional. Ao centro: foto de uma equipe de sete confeiteiros em frente 
+        de suas produções, várias tortas doces e salgadas. POr último, na ponta direita do banner: desenho colorido mostrando uma equipe de trabalha-
+        dores compondo um grande quebra-cabeça em 3D.">
+
+        <p> </strong>Fazer seu cadastro é tão fácil como escolher a sua pie!</p>
+
+        <p> Na <strong>Pie & Cia</strong> trabalhamos no sentido de facilitar as coisas, por isso, criamos este canal de oportunidades de trabalho,
+           que nos ajuda a conhecer os nossos futuros colaboradores.</p>
+   
+        <a><strong>Cadastre-se:</strong></a>
+
+        <form action="cadastro.php" method="post" id="user">
+
+        <!--  <br>Nome: <input type="text" name="nome" value="valor default."><br><br>
+          Sobrenome: <input type="text" name="sobrenome"><br><br>
+          Endereço: <input type="text" name="endereco"><br><br>
+          e-mail: <input type="text" name="email"><br><br>
+          Celular: <input type="text" name="celular"><br><br>
+          Área de Interesse: <input type="text" name="interesse"><br><br> -->
+
+          <br><br><label for="fullname">Nome completo:</label>
+          <input type="text" name="fullname" id="fullname"><br><br>
+          <label for="address">Endereço:</label>
+          <input type="text" name="address" id="address"><br><br>
+          <label for="email">E-mail:</label>
+          <input type="text" name="email" id="email"><br><br>
+          <label for="phone">Celular:</label>
+          <input type="text" name="phone" id="phone"><br><br>
+          <label for="area">Área de interesse:</label>
+          <input type="text" name="area" id="area"><br><br>
+        </form>
+ 
+         <form action="cheque_envio.php" method="post" id="enviar" enctype="multipart/form-data">
+           <div>
+            <label for="file">Selecione o arquivo que deseja enviar</label>
+            <input type="file" id="file" name="file" multiple>
+            <br><input type="submit" name="enviar" valor="enviar">
+           </div>
+          </form>
+
+         <!-- <button onclick="Enviar();">Enviar</button> -->
+               
+      </section>
+
+      </main>  
+      
+  </body>    
+</html>     

@@ -1,0 +1,19 @@
+.estrelas{
+ position:absolute;
+  top: 4vh;
+  left: 73vw;
+  }
+  
+ .reward {
+  display: inline-block; 
+  align-content: right;
+}
+
+ .free, .junte, .texto1, .texto2, .texto3, .form {
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  vertical-align: top;
+}
+
+ 
