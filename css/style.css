@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* global */
 @import "./global/global.css";
 @import "./global/header.css";
@@ -14,4 +15,22 @@
 @import "./home/produtos.css";
 
 /* login */
+=======
+/* global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* utilidades */
+@import "./utilidades/fontesletras.css";
+@import "./utilidades/formulario.css";
+@import "./utilidades/componentes.css";
+@import "./utilidades/cores.css";
+
+/* homepage */
+@import "./home/intro.css";
+@import "./home/produtos.css";
+
+/* login */
+>>>>>>> 59f7530a47230756c9e584f1369ab35b68e9ab1e
 @import "./cadastros/form.css";

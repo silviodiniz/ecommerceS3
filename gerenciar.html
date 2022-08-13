@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!Doctype html>
 <html lang="pt-BR">
 <head>
@@ -61,3 +62,68 @@
 </body>
 </html>  
 
+=======
+<!Doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="./css_ger/style.css" rel="stylesheet">
+  <link href="./css_ger/button.css" rel="stylesheet">
+  <link href="./css_ger/records.css" rel="stylesheet">
+  <link href="./css_ger/modal.css" rel="stylesheet">
+  <!-- <script src="main.js"></script> -->
+  <title>CRUD</title>
+</head>  
+<body>
+    <header>
+      <h1 class="header-title">Cadastro de Produtos</h1>
+    </header>
+    <main>
+      <button type="button" class="button blue mobile" id="cadastrarProduto">Cadastrar Produto</button>
+      <table id="tableProduct" class ="records">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Imagem</th>
+            <th>Categoria</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+         
+        </tbody> 
+      </table>
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <header class="modal-header">
+            <h2>Novo Produto</h2>
+            <span class="modal-close" id="modalClose">&#10006;</span>
+          </header>
+          <form id="form" class="modal-form">
+            <input type="text" id="nome" data-index="new" class="modal-field" placeholder="Nome do Produto" required>
+            <input type="text" id="preco" class="modal-field" placeholder="Preço do Produto" required>
+            <input type="text" id="imagem" class="modal-field" placeholder="Imagem do Produto" required>
+            <input type="text" id="categoria" class="modal-field" placeholder="Categoria do Produto" required>
+            <input type="text" id="descricao" class="modal-field" placeholder="Descrição do Produto" required>
+          </form>
+          <footer class="modal-footer">
+            <button id="salvarProduto" class="button green">Salvar</button>
+            <button id="cancelarProduto" class="button blue">Cancelar</button>
+          </footer>
+        </div>
+      </div>
+    <script src="main_ger.js"></script>
+    </main>
+  <footer>
+    Copyright &copy; Silvio Diniz.
+  </footer>    
+</body>
+</html>  
+
+>>>>>>> 59f7530a47230756c9e584f1369ab35b68e9ab1e

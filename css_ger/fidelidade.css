@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .estrelas{
  position:absolute;
   top: 4vh;
@@ -16,4 +17,24 @@
   vertical-align: top;
 }
 
+=======
+.estrelas{
+ position:absolute;
+  top: 4vh;
+  left: 73vw;
+  }
+  
+ .reward {
+  display: inline-block; 
+  align-content: right;
+}
+
+ .free, .junte, .texto1, .texto2, .texto3, .form {
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  vertical-align: top;
+}
+
+>>>>>>> 59f7530a47230756c9e584f1369ab35b68e9ab1e
  

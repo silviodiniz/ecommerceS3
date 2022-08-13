@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 * { font-family: 'Source Code Pro';}
 
@@ -46,4 +47,54 @@
   .botao-secundario {
     display: none;
   }
+=======
+
+* { font-family: 'Source Code Pro';}
+
+/*.header .botao-secundario {
+  border: none;
+  background: inherit;
+  border-radius: inherit;
+  height: 50%;
+  width: 50%;
+  outline: none;
+  
+}*/
+
+.titulo-principal {
+  text-align:center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  color: rgb(0,0,0);
+}    
+
+.principal {
+  font-size: 1.2em;
+  padding: 2em 0;
+  background: #FEFEFE;
+  width: 940px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.principal p {
+  margin: 1.5em 0;
+  line-height: 1.6em;
+
+}
+
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style:italic;
+}
+
+@media (max-width: 700px) {
+  body,
+  .botao-secundario {
+    display: none;
+  }
+>>>>>>> 59f7530a47230756c9e584f1369ab35b68e9ab1e
 }
