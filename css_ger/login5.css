@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .data {
   display: none;
 }
@@ -16,22 +15,3 @@
   margin: 0 auto;
 } */
 
-=======
-.data {
-  display: none;
-}
-
-.g-signin2 {
-  position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px; 
-}
-
-/*.container {
-  width: min(36.3rem, 100%);
-  margin: 0 auto;
-} */
-
->>>>>>> 59f7530a47230756c9e584f1369ab35b68e9ab1e

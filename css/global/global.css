@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   background: var(--cor-1);
 }
@@ -39,46 +38,4 @@ button {
   border: none;
   background: inherit;
   padding: 12px;
-=======
-body {
-  background: var(--cor-1);
-}
-
-ul,
-li,
-h1,
-p,
-h3,
-h4,
-body {
-  margin: 0px;
-  padding: 0px;
-}
-
-ul {
-  list-style: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-input::placeholder {
-  color: inherit;
-}
-
-button {
-  display: block;
-  cursor: pointer;
-  border: none;
-  background: inherit;
-  padding: 12px;
->>>>>>> 59f7530a47230756c9e584f1369ab35b68e9ab1e
 }
