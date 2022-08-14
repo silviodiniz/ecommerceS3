@@ -159,4 +159,7 @@ document.getElementById('salvarProduto').addEventListener('click', saveProduct)
 document.querySelector('#tableProduct>tbody').addEventListener('click', editDelete)
 
 document.getElementById('cancelarProduto').addEventListener('click', closeModal)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6e57c50bcf692376cc07ed9f1a729bfdfb955cf9

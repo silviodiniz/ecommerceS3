@@ -17,4 +17,8 @@
 </html>       
 <!-- Após o envio, os dados do formulário serão enviados
 para a página "cadastro.php" no servidor. -->
+<<<<<<< HEAD
         
+=======
+      
+>>>>>>> 6e57c50bcf692376cc07ed9f1a729bfdfb955cf9

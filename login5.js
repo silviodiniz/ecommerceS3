@@ -40,4 +40,8 @@ function signOut() {
     //        { theme: "outline", size: "large" }  // customization attributes
     //      );
    //       google.accounts.id.prompt(); // also display the One Tap dialog
+<<<<<<< HEAD
    //   }   
+=======
+    //   }   
+>>>>>>> 6e57c50bcf692376cc07ed9f1a729bfdfb955cf9

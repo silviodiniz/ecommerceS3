@@ -42,3 +42,7 @@ echo "<script>
 ";
 ?>
 </body>
+<<<<<<< HEAD
+=======
+</html>
+>>>>>>> 6e57c50bcf692376cc07ed9f1a729bfdfb955cf9
